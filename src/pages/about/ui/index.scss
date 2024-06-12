@@ -1,0 +1,52 @@
+.aboutpage__main{
+  margin: 140px auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.aboutpage__card {
+  transition: transform 0.2s ease-in-out;
+}
+.aboutpage__card:hover {
+  transform: translateY(-5px);
+}
+
+.aboutpage__cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+.aboutpage__card__content{
+  display: flex;
+  flex-direction: column;
+  max-width: 316px;
+  width: 100%;
+  justify-content: space-between;
+  height: 60%;
+  text-align: center;
+}
+.aboutpage__card__title{
+  width: 100%;
+
+  img{
+    width: 100%;
+  }
+}
+.aboutpage__card__description{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  p{
+    color: #BBBBBB;
+  }
+}
+

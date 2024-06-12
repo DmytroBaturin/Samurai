@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-size: 64px;
+}
+
+.paragraph{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.paragraph-small{
+    font-size: 16px;
+}
+
+.green{
+    color: #8DD89E;
+}
+.green-background{
+    background: #8DD89E;
+}
+
+.semibold{
+    font-weight: 600;
+
+}
+
+.paragraph-bigger{
+    font-size: 32px;
+}
+
+.paragraph-large{
+    font-size: 24px;
+}
+
+.title-large{
+    font-size: 96px;
+}
+
+a{
+    color: white;
+}
+
+body{
+  color: white;
+  background: #151517;
+}
+
+@media screen and (max-width: 768px){
+    .title{
+        font-size: 48px;
+    }
+    .paragraph{
+        font-size: 16px;
+    }
+    .paragraph-small{
+        font-size: 14px;
+    }
+    .paragraph-bigger{
+        font-size: 24px;
+    }
+    .paragraph-large{
+        font-size: 20px;
+    }
+    .title-large{
+        font-size: 64px;
+    }
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+::-moz-selection {
+    color: white;
+    background: #8DD89E;
+}
+
+::selection {
+    color: white;
+    background: #8DD89E;
+}
