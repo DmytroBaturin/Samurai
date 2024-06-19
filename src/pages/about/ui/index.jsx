@@ -27,7 +27,7 @@ export const AboutPage = () => {
           <div className="aboutpage__card__content">
             <div className="aboutpage__card__title">
               <h1>
-                Хлопце, я підняв товару на{" "}
+                Хлопче, я підняв товару на{" "}
                 <span className="green semibold paragraph-bigger">1500$</span>
               </h1>
             </div>
