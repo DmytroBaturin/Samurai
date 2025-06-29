@@ -12,12 +12,11 @@ const navigations = [
 ];
 export const Header = () => {
   return (
-    <Box as="header">
-      {/*<image href={"/assets/logo.svg"} alt="logo" />*/}
+    <Box role='banner' as="header">
       <Link to="/">
         <img className="header__title" src={logo} alt="logo" />
       </Link>
-      <nav className="header__nav">
+      <nav className="header__nav" role='navigation'>
         {navigations.map((nav) => (
           <Link key={nav.title} to={nav.href} className="header__nav-link">
             <span>{nav.title}</span>
