@@ -49,7 +49,7 @@ export const HomePage = () => {
                 <span>
                   <img src={star} />
                 </span>{" "}
-                Ознайомтеся з нішею <span className="green">«Refund»</span>
+                Ознайомтеся з нішею <span className="green">«Trading»</span>
               </p>
               <h1 className="title semibold">
                 Пройдіть власний шлях до успіху з {}
@@ -130,7 +130,7 @@ export const HomePage = () => {
         <ContentLayout as="section" classname="homepage__section__second">
           <div className="homepage__section__second_title-div">
             <h1 className="title-large homepage__section__second_title">
-              Що таке Refund?
+              Що таке Trading?
             </h1>
             <div className="homepage__section__second_title-line">
               <img
@@ -141,7 +141,7 @@ export const HomePage = () => {
           </div>
           <ol className="homepage__section__second_list">
             <li>
-              <label className="paragraph-bigger semibold">Refund</label>
+              <label className="paragraph-bigger semibold">Trading</label>
               <p className="paragraph">
                 Lorem ipsum dolor sit amet consectetur papa adipiscing elit Ut
                 et massa mi. Aliquam in aha hendrerit urna. dabet ulta mori anta
@@ -149,7 +149,7 @@ export const HomePage = () => {
               </p>
             </li>
             <li>
-              <label className="paragraph-bigger semibold">Refund</label>
+              <label className="paragraph-bigger semibold">Trading</label>
               <p className="paragraph">
                 Lorem ipsum dolor sit amet consectetur papa adipiscing elit Ut
                 et massa mi. Aliquam in aha hendrerit urna. dabet ulta mori anta
@@ -157,7 +157,7 @@ export const HomePage = () => {
               </p>
             </li>
             <li>
-              <label className="paragraph-bigger semibold">Refund</label>
+              <label className="paragraph-bigger semibold">Trading</label>
               <p className="paragraph">
                 Lorem ipsum dolor sit amet consectetur papa adipiscing elit Ut
                 et massa mi. Aliquam in aha hendrerit urna. dabet ulta mori anta

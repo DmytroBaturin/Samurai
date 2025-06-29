@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const navigations = [
   { title: "Головна ", href: "/" },
-  { title: "Що таке Refund", href: "/about" },
+  { title: "Що таке Trading", href: "/about" },
   { title: "Навчання", href: "/contact" },
   { title: "FAQs", href: "/faq" },
 ];
